@@ -132,7 +132,7 @@ const Demo = () => {
                 <span className='purple_gradient'>Summary</span>
               </h2>
               <div className='summary_box'>
-                <p className='font-kanit font-medium text-sm text-gray-700  leading-loose space-y-8 '>
+                <p className='font-kanit font-medium text-base sm:text-base text-gray-700  leading-loose space-y-8 '>
                   {article.summary}
                 </p>
               </div>
@@ -141,6 +141,7 @@ const Demo = () => {
         )}
       </div>
     </section>
+    
   );
 };
 
