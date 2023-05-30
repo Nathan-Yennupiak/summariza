@@ -8,7 +8,7 @@ const Hero = () => {
       <nav className='flex justify-between items-center w-full mb-10 p-3 border-b-2 border-solid border-purple-200'>
 
         {/* <img src={logo} alt='sumz_logo' className='w-28 object-contain' /> */}
-        <h1 className="py-1.5 px-5 text-purple-900 font-bold text-2xl transition-all hover:bg-white hover:text-black">Summariza</h1>
+        <h1 className="py-1.5 px-5 text-purple-900 font-medium text-lg transition-all hover:bg-white hover:text-black">Summariza</h1>
 
         <button
           type='button'
