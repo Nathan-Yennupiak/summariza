@@ -127,12 +127,12 @@ const Demo = () => {
           </p>
         ) : (
           article.summary && (
-            <div className='flex flex-col gap-3'>
+            <div className='flex flex-col gap-3'> 
               <h2 className='font-kanit font-bold text-gray-600 text-xl'>
-                Article / Blog Post <span className='purple_gradient'>Summary</span>
+                <span className='purple_gradient'>Summary</span>
               </h2>
               <div className='summary_box'>
-                <p className='font-kanit font-medium text-sm text-gray-700  leading-relaxed space-y-8'>
+                <p className='font-kanit font-medium text-sm text-gray-700  leading-loose space-y-8 '>
                   {article.summary}
                 </p>
               </div>
